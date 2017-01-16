@@ -6,10 +6,12 @@ header {
   padding: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  font-family: Dancing Script;
 }
 
 body{
   background-color: #82c3a6;
+  font-family: Dancing Script;
 }
 /*Menu navegacion*/
 nav{
@@ -40,17 +42,23 @@ a.subrayado{
   width: 80%;
   padding: 5%;
   order: 1;
-  }
+    }
 
 .imagen2{
   width: 350px;
   padding: 5px;
   order: 2;
+  float: left;
+  box-shadow: 2px 2px 2px #02010a;
+  margin: 2px;
 }
 .imagen3{
   width: 350px;
   padding: 5px;
   order: 3;
+  float: left;
+  box-shadow: 2px 2px 2px #02010a;/**/
+  margin: 2px;
 }
 
 .contenedor{
@@ -66,8 +74,20 @@ a.subrayado{
   background-color: #d5c75f;
   margin: 1px;
   justify-content:space-between;
-  /*padding: 5%;*/
 }
+
+.contenedor2 img{
+  display: block;
+  position: relative;
+  margin: -6px 6px 6px -6px;
+}
+
+.contenedor2 img:hover {
+
+    transform: rotate(-10deg);
+
+}
+
 
 
 /*Footer*/
