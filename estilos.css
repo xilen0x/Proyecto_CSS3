@@ -36,18 +36,22 @@ a.subrayado{
 }
 /*Orden y disposicion de bloques con flex*/
 
+
 .bloque1{
-  /*width: 80%;*/
-  padding: 20px 70px;
+  width: 100%;
+  padding: 10px 10px;
   order: 1;
+
 }
 
 .bloque2{
-  padding: 20px 10px;
+  width: 100%;
+  padding: 5%;
   order: 2;
 }
 .bloque3{
-    padding: 20px 10px;
+    width: 100%;
+    padding: 5%;
     order: 3;
 }
 
@@ -56,12 +60,15 @@ a.subrayado{
   flex-flow: row wrap;
   background-color: #82c3a6;
   margin: 1px;
-}
+  justify-content: center;
+  }
 .contenedor2{
   display: flex;
   flex-flow: row wrap;
   background-color: #d5c75f;
   margin: 1px;
+  justify-content: space-between;
+  padding: 5%; 
 }
 
 
