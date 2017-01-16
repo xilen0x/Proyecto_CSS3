@@ -1,4 +1,4 @@
-header{
+header {
   background-color:#5b7989;
   text-align: left;
   color:#ffffff;
@@ -7,31 +7,73 @@ header{
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+
 body{
   background-color: #82c3a6;
 }
+/*Menu navegacion*/
+nav{
+  text-align: right;
+  text-shadow: none;
+  text-decoration: underline;
+}
 
+a:hover{
+  text-decoration: none;
+}
+
+a:visited{
+  color: #fff;
+  text-decoration: none;
+  }
+
+a:active{
+	color: #fff;
+      }
+
+a.subrayado{
+  text-decoration: none;
+}
+
+#contenido1{
+	margin: 1%;
+	text-align: center;
+  background-color:#82c3a6;
+}
+#contenido2{
+  margin: 1%;
+  text-align: center;
+  background-color: #d5c75f;
+}
+
+.imgcentral1{
+  width: 50%;
+}
+
+.imgcentral2{
+  width: 30%;
+}
+.imgcentral3{
+  width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
 footer{
   background-color: #C6d5c5;
   padding: 80px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Desarrolla un menú, para la versión desktop, a la derecha con
-enlaces a tres páginas: Inicio, Paisajes, Retratos.
-
-La página actual debe tener estilo sin subrayado.
