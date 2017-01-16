@@ -36,32 +36,37 @@ a.subrayado{
 }
 /*Orden y disposicion de bloques con flex*/
 
-.bloque1{
-  /*width: 80%;*/
-  padding: 20px 70px;
+.imagen1{
+  width: 80%;
+  padding: 5%;
   order: 1;
-}
+  }
 
-.bloque2{
-  padding: 20px 10px;
+.imagen2{
+  width: 350px;
+  padding: 5px;
   order: 2;
 }
-.bloque3{
-    padding: 20px 10px;
-    order: 3;
+.imagen3{
+  width: 350px;
+  padding: 5px;
+  order: 3;
 }
 
 .contenedor{
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
   background-color: #82c3a6;
   margin: 1px;
-}
+  }
+
 .contenedor2{
   display: flex;
   flex-flow: row wrap;
   background-color: #d5c75f;
   margin: 1px;
+  justify-content:space-between;
+  /*padding: 5%;*/
 }
 
 
