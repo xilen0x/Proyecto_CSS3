@@ -12,7 +12,8 @@ header {
 body{
   background-color: #82c3a6;
   font-family: Dancing Script;
-}
+  color: 000000;
+  }
 /*Menu navegacion*/
 nav{
   text-align: right;
@@ -45,18 +46,21 @@ a.subrayado{
     }
 
 .imagen2{
-  width: 350px;
+  /*width: 350px;*/
+  width: auto;
   padding: 5px;
   order: 2;
-  float: left;
+  /*float: left;*/
   box-shadow: 2px 2px 2px #02010a;
   margin: 2px;
-}
+
+  }
 .imagen3{
-  width: 350px;
+  /*width: 350px;*/
+  width: auto;
   padding: 5px;
   order: 3;
-  float: left;
+  /*float: left;*/
   box-shadow: 2px 2px 2px #02010a;/**/
   margin: 2px;
 }
@@ -77,23 +81,44 @@ a.subrayado{
 }
 
 .contenedor2 img{
-  display: block;
+/*  display: block;*/
+display: flex;
   position: relative;
   margin: -6px 6px 6px -6px;
 }
 
 .contenedor2 img:hover {
-
-    transform: rotate(-10deg);
-
+  transform: rotate(-10deg);
 }
-
-
 
 /*Footer*/
 footer{
   background-color: #C6d5c5;
-  padding: 80px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.contenedorfooter{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contFooter1{
+  order: 1
+padding: 5px;
+
+}
+.contFooter2{
+  order: 2
+  padding: 5px;
+}
+.contFooter3{
+  order: 3
+  padding: 5px;
+}
+.contFooter4{
+  order: 4
+  padding: 5px;
 }
