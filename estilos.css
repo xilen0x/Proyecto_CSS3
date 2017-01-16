@@ -34,44 +34,35 @@ a:active{
 a.subrayado{
   text-decoration: none;
 }
-
-#contenedor1{
-	margin: 1%;
-	text-align: center;
-  background-color:#82c3a6;
-}
-#contenedor2{
-  margin: 1%;
-  text-align: center;
-  background-color: #d5c75f;
-}
-
-#contenedor3{
-	margin: 1%;
-	text-align: center;
-  background-color:#82c3a6;
-  display: flex;
-  flex-direction: row;
-}
+/*Orden y disposicion de bloques con flex*/
 
 .bloque1{
-  width: 80%;
+  /*width: 80%;*/
+  padding: 20px 70px;
+  order: 1;
 }
 
 .bloque2{
-  width: 30%;
+  padding: 20px 10px;
+  order: 2;
 }
 .bloque3{
-  width: 30%;
+    padding: 20px 10px;
+    order: 3;
 }
 
-
-
-
-
-
-
-
+.contenedor{
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #82c3a6;
+  margin: 1px;
+}
+.contenedor2{
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #d5c75f;
+  margin: 1px;
+}
 
 
 /*Footer*/
