@@ -8,7 +8,33 @@
   </head>
   <body>
 <header>
-	<h1><em>Comenzando con la fotografía</em></h1>
+	<div class="titulo">
+	  <h1><em>Comenzando con la fotografía</em></h1>
+	</div>
+
+  <style media="screen">
+  div.slide-up {
+    height:200px;
+    overflow:hidden;
+  }
+  div.slide-up p {
+    animation: 10s slide-up;
+    margin-top:0%;
+  }
+
+  @keyframes slide-up {
+    from {
+      margin-top: 150%;
+      height: 300%;
+          }
+
+    to {
+      margin-top: -5%;
+      height: 100%;
+    }
+  }
+  </style>
+
 <!Menu>
   <nav>
     <a href="index.html" class="subrayado"><em>Inicio</em></a>
@@ -30,7 +56,7 @@
 
 
     <div>
-        <a href="retratos.html"><img class="imagen3" src="imgs\barro3.jpg" alt="casa3"><em>Retratos</em></a>
+        <a href="retratos.html"><img class="imagen3" src="imgs\scarlett.jpg" alt="casa3"><em>Retratos</em></a>
     </div>
 </div>
 

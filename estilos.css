@@ -123,41 +123,66 @@ padding: 5px;
   padding: 5px;
 }
 
-/*Pagina retratos*/
+/*Pagina retratos y paisajes*/
 
 .contenedorimg1{
   display: flex;
+  flex-flow: row wrap;
   background-color: #82c3a6;
   margin: 1px;
-  }
+    }
 .contenedorimg2{
   display: flex;
+  flex-flow: row wrap;
   background-color: #82c3a6;
   margin: 1px;
   }
 
 
 .imagen4{
+  width: auto;
   order: 1;
   padding: 5px;
+  filter: blur(10px);
 }
 .imagen5{
-  order: 1;
+  width: auto;
+  order: 2;
   padding: 5px;
+  filter: grayscale(100%);
 }
 .imagen6{
-  order: 1;
+  width: auto;
+  order: 3;
   padding: 5px;
+  filter: sepia(90%);
 }
 .imagen7{
-  order: 1;
+  width: auto;
+  order: 4;
   padding: 5px;
+  filter: grayscale(100%);
 }
 .imagen8{
-  order: 1;
+  width: auto;
+  order: 5;
   padding: 5px;
 }
 .imagen9{
-  order: 1;
+  width: auto;
+  order: 6;
   padding: 5px;
+  filter: grayscale(100%);
+}
+
+/*titulo por defecto alineado al centro*/
+.titulo{
+  text-align: center;
+  width: 100%;
+}
+/*menos de 800px cambia la alineacion del texto  para equipos pequeños*/
+@media (min-width: 800px) {
+  .titulo{
+    text-align: left;
+  }
 }
